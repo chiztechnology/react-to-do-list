@@ -1,14 +1,12 @@
-import React from "react";
-import  "./Header.css";
+import React from 'react';
+import  './Header.css';
 
-const Header = () => {
-  return (
+const Header = () => (
     <header>
-      <h1 className="title">
+      <h1 className='title'>
         Todo List
         </h1>
     </header>
   )
-}
 
 export default Header

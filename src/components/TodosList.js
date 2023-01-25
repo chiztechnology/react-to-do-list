@@ -1,8 +1,7 @@
-import React from "react"
-import TodoItem from "./TodoItem";
+import React from 'react'
+import TodoItem from './TodoItem';
 
-const TodosList = props => {
-  return (
+const TodosList = props =>(
     <ul>
       {props.todos.map(todo => (
         <TodoItem
@@ -15,5 +14,4 @@ const TodosList = props => {
       ))}
     </ul>
   )
-}
 export default TodosList
